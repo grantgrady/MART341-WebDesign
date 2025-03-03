@@ -1,0 +1,1 @@
+One class I really enjoyed was History of Rock n ROll. Although the teacher was strict, his knowldge on the subject amazed me and kept me captivated everrday.
