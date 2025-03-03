@@ -1,0 +1,1 @@
+I chose to give a list of ideas based on why I thought making a business website would be ideal for sales and a smooth process.
