@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant's Collection</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        nav {
+            background: black;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .video, .collection, .media {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .collection img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="grantscollection.html">Grant's Collection</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="video">
+        <h2>Featured Video</h2>
+        <video controls width="80%">
+            <source src="./video/collection-intro.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="collection">
+        <h2>My Collection</h2>
+        <div class="collection-item">
+            <img src="./images/business1.jpg" alt="Business Image 1">
+            <p><span>Creative Workspace</span> - A productive work environment.</p>
+        </div>
+        <div class="collection-item">
+            <img src="./images/business2.jpg" alt="Business Image 2">
+            <p><span>Modern Checkout</span> - A sleek and efficient transaction system.</p>
+        </div>
+        <div class="collection-item">
+            <img src="./images/business3.jpg" alt="Business Image 3">
+            <p><span>Online Shopping</span> - A seamless digital retail experience.</p>
+        </div>
+    </section>
+
+    <section class="media">
+        <h2>Explore More</h2>
+        <p>Check out this related video:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR-YOUTUBE-ID" frameborder="0" allowfullscreen></iframe>
+
+        <p>Listen to background music while browsing:</p>
+        <audio controls>
+            <source src="./audio/background-music.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Grant's Collection | <a href="contact.html">Contact Me</a></p>
+    </footer>
+
+</body>
+</html>
