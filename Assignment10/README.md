@@ -1,0 +1,1 @@
+This builds off of Assignment 7 with updated styling using CSS. I reused content and added HTML structure and a second page
