@@ -1,0 +1,88 @@
+/* Base Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Tool Boxes */
+.tool-box {
+    border: 1px solid black;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+/* Dropdown */
+.dropdown-button {
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    background: #eee;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tool-box {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav a {
+        padding: 0.75rem;
+    }
+
+    .tool-box {
+        font-size: 0.95rem;
+    }
+}
