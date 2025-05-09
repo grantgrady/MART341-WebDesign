@@ -1,0 +1,8 @@
+.tool-box {
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+}
